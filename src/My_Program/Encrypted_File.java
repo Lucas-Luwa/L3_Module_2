@@ -11,7 +11,7 @@ public class Encrypted_File {
 		String y = JOptionPane.showInputDialog("Give a message!");
 
 		for (int i = 0; i < y.length(); i++) {
-			yEncrypted += (char) (y.charAt(i) * 2 +y.length());
+			yEncrypted += (char) (y.charAt(i) + 27);
 		}
 		System.out.println(yEncrypted);
 

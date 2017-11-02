@@ -22,7 +22,7 @@ String fileName = "";
 		int c = fr.read();
 		String fileContents= "";
 		while( c != -1) {
-			fileContents += (char)((c - (fileContents.length()+10))/2);
+			fileContents += (char)((c - 27));
 		
 			c = fr.read();
 		}
